@@ -1,0 +1,23 @@
+{
+  "name": "projectnoel",
+  "version": "1.0.0",
+  "description": "--",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {
+    "brunch": "^2.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/audreyalary/Project_Noel.git"
+  },
+  "author": "Audrey Alary",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/audreyalary/Project_Noel/issues"
+  },
+  "homepage": "https://github.com/audreyalary/Project_Noel#readme"
+}
