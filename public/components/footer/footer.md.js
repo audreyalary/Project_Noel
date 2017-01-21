@@ -1,6 +1,4 @@
 ((app) => {
 
 
-
-
-})(angular.module('app.footer',[]))
+})(require('angular').module('app.footer',[]))

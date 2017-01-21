@@ -2,10 +2,10 @@
 
   'use strict'
   app.config(['$stateProvider', ($stateProvider, $urlRouterProvider, $locationProvider) => {
-      $stateProvider.state('app.home', {
+      $stateProvider.state('app.author', {
           url: '/',
-          template: '<home></home>'
+          template: '<author></author>'
       })
   }])
 
-})(require('angular').module('app.home',[]))
+})(require('angular').module('app.author',[]))

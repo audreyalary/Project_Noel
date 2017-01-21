@@ -7,16 +7,14 @@ exports.config = {
     files: {
         javascripts: {
             joinTo: {
-                'js/vendor.min.js': /^node_modules/,
-                'js/app.min.js': /^public\/js/
+                'vendor.min.js': /^node_modules/,
+                'app.min.js': /^public/
             },
             order: {
                 before: [
-                    'node_modules/jquery/dist/*.js',
-                    'node_modules/angular/*.js',
-                    'public/js/app.js',
-                    'public/js/**/*.md.js',
-                    'public/js/components/**/*.js'
+                    'public/app.js',
+                    'public/**/*.md.js',
+                    'public/components/**/*.js'
                 ]
             }
         },
@@ -29,7 +27,7 @@ exports.config = {
     },
     npm: {
         enabled: true,
-        compilers: ['angular', 'angular-ui-router', 'angular-cookies', 'angular-materialize', 'jquery']
+        compilers: ['angular', 'angular-ui-router', 'angular-materialize']
     },
     conventions: {
         assets: /static[\\/]/,

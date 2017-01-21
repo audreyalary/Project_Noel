@@ -5,4 +5,5 @@
     templateUrl :'components/footer/footer.html'
 
   })
-})(angular.module('app.footer'))
+
+})(require('angular').module('app.footer'))
